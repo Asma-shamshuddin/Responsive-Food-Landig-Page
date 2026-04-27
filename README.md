@@ -7,7 +7,7 @@ This project showcases a clean UI with smooth animations, interactive components
 
 ## 🚀 Live Demo
 
- resposivefoodlandingpage.netlify.app
+ https://resposivefoodlandingpage.netlify.app
 
 ---
 
