@@ -14,7 +14,9 @@ This project showcases a clean UI with smooth animations, interactive components
 ## 📸 Preview
 
 <img width="1600" height="774" alt="WhatsApp Image 2026-04-27 at 1 39 25 PM" src="https://github.com/user-attachments/assets/f7b27528-1643-4381-b5da-11a8f99370d5" />
-<img width="1600" height="774" alt="WhatsApp Image 2026-04-27 at 1 39 25 PM" src="https://github.com/user-attachments/assets/abfa3f5e-9a64-49b1-8bfe-d844b67734b1" />
+
+<img width="1600" height="787" alt="image" src="https://github.com/user-attachments/assets/ab9b59c5-0533-4e19-be8e-59beebfb41d9" />
+
 
 
 
