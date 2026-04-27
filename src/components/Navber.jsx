@@ -11,7 +11,7 @@ const Navber = ({cartCount}) => {
 
         </img>
       </div>
-      <div className='ml-auto flex gap-8 items-center text-lg'>
+      <div className='ml-auto flex gap-6 items-center text-base'>
         <a href='#home' className='hover:text-orange-400 transition'>Home</a>
         <a href='#menu' className='hover:text-orange-400 transition'>Menu</a>
         <a href='#about' className='hover:text-orange-400 transition'>About us</a>

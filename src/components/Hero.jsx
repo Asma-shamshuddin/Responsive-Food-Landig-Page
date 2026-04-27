@@ -42,11 +42,11 @@ const Hero = ({setCartCount}) => {
    const sliderRef = useRef();
 
    const scrollLeft = () => {
-    sliderRef.current.scrollBy({ left:-200, behavior: "smooth"});
+    sliderRef.current.scrollBy({ left:-250, behavior: "smooth"});
    };
 
    const scrollRight = () =>{
-    sliderRef.current.scrollBy({left: 200, behavior: "smooth"});
+    sliderRef.current.scrollBy({left: 250, behavior: "smooth"});
    };
 
    
@@ -79,13 +79,13 @@ const Hero = ({setCartCount}) => {
         </div>        
      </section>
      {/* img section */}
-     <div className=' bg-gray-100 py-10  flex flex-col lg:flex-row items-center mt-2 '>
+     <div className=' bg-gray-100 py-10  flex flex-col lg:flex-row items-center mt-2  '>
       {/* left button */}
       <button
        onClick={scrollLeft}
-       className='bg-white shadow-lg rounded-full w-10 h-10 flex items-center justify-center mr-3 ml-20'>  ←        
+       className='bg-white shadow-lg rounded-full w-10 h-10 flex items-center justify-center mr-3 ml-20 '>  ←        
       </button>
-      <div className='w-[400px] overflow-hidden '>
+      <div className='w-full max-w-xl overflow-hidden '>
       {/* slider */}
       <div 
       ref={sliderRef}
@@ -94,7 +94,7 @@ const Hero = ({setCartCount}) => {
         <div
            key={index}
            onClick={() => setHeroImg(item.img)}
-           className={`min-w-[120px] bg-white
+           className={`min-w-30 bg-white
             rounded-2xl p-3 text-center shadow cursor-pointer transition
             ${
                 heroImg == item.img ? "border-2 border-orange-500 bg-white" : "bg-white"
@@ -121,7 +121,7 @@ const Hero = ({setCartCount}) => {
 
       {/* 👉 RIGHT SIDE CARD */}
     <div className=" mt-6 lg:mt-0 lg:ml-auto lg:mr-auto">
-      <div className="bg-white p-4 rounded-2xl shadow-lg w-80 lg-w-150">
+      <div className="bg-white p-4 rounded-2xl shadow-lg w-72 lg:w-96 ">
         
         <img
           src={heroImg}
