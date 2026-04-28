@@ -52,7 +52,7 @@ const Hero = ({setCartCount}) => {
    
   return (
     <>
-      <section className=' flex items-center px-6 lg:px-16 mt-6' >
+      <section className=' flex items-center px-6 lg:px-16 mt-18' >
         <div className=' flex flex-col-reverse lg:flex-row items-center gap-10 w-full'>
           {/* left side */}
           <div className='lg:w-1/2 text-center lg:text-left fade-in-left '>
@@ -115,7 +115,7 @@ const Hero = ({setCartCount}) => {
       {/* right button */}
       <button 
       onClick={scrollRight}
-      className='bg-white rounded-full w-10 h-10 flex items-center justify-center ml-3'>
+      className='bg-white rounded-full w-10 h-10 flex items-center justify-center  mb-4 lg:mb-0 lg:mr-3 lg:ml-10 shadow'>
          →
       </button>
 

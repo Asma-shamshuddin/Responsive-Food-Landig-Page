@@ -1,25 +1,49 @@
-import React from 'react'
 
 
-const Navber = ({cartCount}) => {
+import React from 'react';
+
+const Navber = ({ cartCount }) => {
   return (
-    <div className='bg-gray-800 text-white flex  items-center h-17 p-3 text-2xl font-bold'>
-      <div className='w-16 h-16 '>
-        <img
-             src='https://i.pinimg.com/736x/e1/49/ae/e149aec64d4f7e125d86ad9b473b6e9b.jpg'
-             className='w-full h-full object-cover rounded-full'>
+    <div className="bg-gray-800 text-white flex items-center justify-between px-4 py-3 flex-wrap">
 
-        </img>
+      {/* Logo */}
+      <div className="w-14 h-14">
+        <img
+          src="https://i.pinimg.com/736x/e1/49/ae/e149aec64d4f7e125d86ad9b473b6e9b.jpg"
+          alt="logo"
+          className="w-full h-full object-cover rounded-full"
+        />
       </div>
-      <div className='ml-auto flex gap-6 items-center text-base'>
-        <a href='#home' className='hover:text-orange-400 transition'>Home</a>
-        <a href='#menu' className='hover:text-orange-400 transition'>Menu</a>
-        <a href='#about' className='hover:text-orange-400 transition'>About us</a>
-        <a href='#contact' className='hover:text-orange-400 transition'>contact us</a>
-        <a href='#' className=' ml-6 bg-orange-500 text-white px-4 py-1 rounded-full shadow text-lg'>🛒 {cartCount}</a>
+
+      {/* Navigation Links */}
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 items-center text-sm sm:text-base mt-3 sm:mt-0">
+
+        <a href="#home" className="hover:text-orange-400 transition">
+          Home
+        </a>
+
+        <a href="#menu" className="hover:text-orange-400 transition">
+          Menu
+        </a>
+
+        <a href="#about" className="hover:text-orange-400 transition">
+          About Us
+        </a>
+
+        <a href="#contact" className="hover:text-orange-400 transition">
+          Contact Us
+        </a>
+
+        <a
+          href="#"
+          className="bg-orange-500 text-white px-4 py-1 rounded-full shadow text-base"
+        >
+          🛒 {cartCount}
+        </a>
+
       </div>
     </div>
   );
 };
 
-export default Navber
+export default Navber;
